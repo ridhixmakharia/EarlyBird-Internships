@@ -1,7 +1,3 @@
-.header-img {
-  width: 100%;
-  height: inherit;
-}
 
 h1 {
   font-family: 'Shadows Into Light Two', cursive;
@@ -28,6 +24,7 @@ p {
   font-family: "Montserrat";
   margin: 6% 20%;
   font-weight: bolder;
+  font-size: 150%;
 }
 
 .logo {
@@ -39,7 +36,7 @@ p {
 
 .head {
   background-color:#e9ecef;
-  align-items: center;
+  align-items: baseline;
   text-align: right;
 }
 
@@ -57,11 +54,20 @@ p {
 .jumbotron{
   text-align: center;
 }
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 800px)  {
   .head{
     text-align: center;
   }
   .heading{
     text-align: center;
   }
+  p{
+    font-size: 130%;
+  }
+}
+.title{
+  font-size: 200%;
+}
+.row{
+  align-items: center;
 }
