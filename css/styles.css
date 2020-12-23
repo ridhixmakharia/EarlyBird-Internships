@@ -71,3 +71,9 @@ p {
 .row{
   align-items: center;
 }
+.btn{
+  padding: 4% 8%;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+}
