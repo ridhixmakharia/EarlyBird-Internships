@@ -1,0 +1,67 @@
+.header-img {
+  width: 100%;
+  height: inherit;
+}
+
+h1 {
+  font-family: 'Shadows Into Light Two', cursive;
+  margin: 5%;
+  font-size: 2rem;
+  text-align: center;
+  color: #16213E;
+  font-weight: bolder;
+}
+
+img {
+  width: 60%;
+  height: auto;
+  text-align: center;
+}
+
+.rows {
+  text-align: center;
+  align-items: center;
+  margin: 10%;
+}
+
+p {
+  font-family: "Montserrat";
+  margin: 6% 20%;
+  font-weight: bolder;
+}
+
+.logo {
+  width: 150px;
+  height: inherit;
+  padding-top: 3%;
+  margin: 0;
+}
+
+.head {
+  background-color:#e9ecef;
+  align-items: center;
+  text-align: right;
+}
+
+.heading {
+  font-size: 3rem;
+  font-family: "Graduate";
+  font-weight: normal;
+  padding-bottom: 3%;
+  padding: 5%;
+  text-align: left;
+}
+.content {
+  font-weight: normal;
+}
+.jumbotron{
+  text-align: center;
+}
+@media screen and (max-width: 600px)  {
+  .head{
+    text-align: center;
+  }
+  .heading{
+    text-align: center;
+  }
+}
